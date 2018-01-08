@@ -56,5 +56,29 @@ namespace CrudAngularCli.Services
             
         }
      }
+     // ============= Create ============ //
+     public int CarCreate(CarCreate request)
+     { 
+        using (SqlConnection con = new SqlConnection("Server=den1.mssql5.gear.host;Database=carstest;User Id=carstest;Password=Hy19Ks!-Kom3"))
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = "cars_create";
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Make", request.Make);
+            cmd.Parameters.AddWithValue("@Model", request.Model);
+            cmd.Parameters.AddWithValue("@Year", request.Year);
+            cmd.Parameters.AddWithValue("@Color", request.Color);
+
+            var idParam = cmd.Parameters.Add("@id", SqlDbType.Int);
+            idParam.Direction = ParameterDirection.Output;
+
+            cmd.ExecuteNonQuery();
+
+            return (int)idParam.Value;
+        }
+     }
+     // ====== Delete ====== //
+     
     }
 }
