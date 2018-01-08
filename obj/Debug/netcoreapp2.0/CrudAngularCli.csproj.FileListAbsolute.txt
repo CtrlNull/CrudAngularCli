@@ -1,0 +1,10 @@
+C:\Users\CtrlNull\repos\CrudAngularCli\bin\Debug\netcoreapp2.0\CrudAngularCli.deps.json
+C:\Users\CtrlNull\repos\CrudAngularCli\bin\Debug\netcoreapp2.0\CrudAngularCli.runtimeconfig.json
+C:\Users\CtrlNull\repos\CrudAngularCli\bin\Debug\netcoreapp2.0\CrudAngularCli.runtimeconfig.dev.json
+C:\Users\CtrlNull\repos\CrudAngularCli\bin\Debug\netcoreapp2.0\CrudAngularCli.dll
+C:\Users\CtrlNull\repos\CrudAngularCli\bin\Debug\netcoreapp2.0\CrudAngularCli.pdb
+C:\Users\CtrlNull\repos\CrudAngularCli\obj\Debug\netcoreapp2.0\CrudAngularCli.csproj.CoreCompileInputs.cache
+C:\Users\CtrlNull\repos\CrudAngularCli\obj\Debug\netcoreapp2.0\CrudAngularCli.AssemblyInfoInputs.cache
+C:\Users\CtrlNull\repos\CrudAngularCli\obj\Debug\netcoreapp2.0\CrudAngularCli.AssemblyInfo.cs
+C:\Users\CtrlNull\repos\CrudAngularCli\obj\Debug\netcoreapp2.0\CrudAngularCli.dll
+C:\Users\CtrlNull\repos\CrudAngularCli\obj\Debug\netcoreapp2.0\CrudAngularCli.pdb
