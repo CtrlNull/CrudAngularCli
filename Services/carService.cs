@@ -79,6 +79,18 @@ namespace CrudAngularCli.Services
         }
      }
      // ====== Delete ====== //
-     
+     public void CarsDelete(int Id)
+     {
+        using (SqlConnection con = new SqlConnection("Server=den1.mssql5.gear.host;Database=carstest;User Id=carstest;Password=Hy19Ks!-Kom3"))
+         {
+             con.Open();
+             SqlCommand cmd = con.CreateCommand();
+             cmd.CommandText = "cars_delete";
+             cmd.CommandType = System.Data.CommandType.StoredProcedure;
+             cmd.Parameters.AddWithValue("@Id", Id);
+             cmd.ExecuteNonQuery();
+         }
+     }
+     // ======= Get By Id ====== //
     }
 }
